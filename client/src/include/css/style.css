@@ -1,0 +1,54 @@
+header {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15%;
+    height: 100%;
+    background-color: #01A0EA;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+
+body{
+    margin-left: 18%;
+}
+
+.nav-link{
+    color: #FFFFFF ;
+}
+
+
+.logo-container {
+    margin-right: auto;
+    margin-bottom: 0.5rem;
+}
+
+.nav-pills {
+    border-top: 1px solid #ccc;
+    width: 100%;
+}
+
+.nav-item {
+    margin-right: 15rem;
+    margin-bottom: -15rem;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+    .logo-container {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}
